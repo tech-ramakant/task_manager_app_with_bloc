@@ -19,12 +19,6 @@ Managing state and asynchronous data in Flutter can become challenging as apps g
 This repository accompanies my [article on Medium](https://medium.com/@tech.ramakant/bloc-journey-to-the-next-milestone-crafting-a-task-manager-app-with-dio-and-api-integration-eef60a51391a), guiding you through building a task manager app from scratch, integrating a mock API, and using BLoC to manage state effectively.
 
 ## Features
-- **Clean Architecture**: Separates code into data, domain, and presentation layers.
-- **Repository Pattern**: Makes it easy to swap out data sources or add new ones.
-- **Scalable Structure**: The app’s structure allows it to grow without sacrificing code quality.
-- **Detailed Documentation**: Code is documented for easy understanding with helpful comments.
-
-## Features
 - **BLoC Architecture**: Uses BLoC for structured state management.
 - **DIO Networking with Interceptors**: Handles API calls and manages responses with DIO interceptors.
 - **API Integration**: Connects to a mock API to retrieve and manage task data.
